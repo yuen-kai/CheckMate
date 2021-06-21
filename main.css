@@ -49,3 +49,39 @@ h1 {
     font-weight: bold;
     font-family: 'Verdana', sans-serif;
 }
+
+@media screen and (max-width: 700px) {
+    .appstore{
+                min-width: 50px; 
+                max-width: 300px;
+                margin-left: 0px;
+          margin-right: 0px;
+              width: 100%;
+            border-radius: 0;
+        }
+    .ad {
+                  float: center;
+                  width: 90%;
+                }
+    .icon{
+                        float: center;
+                        width: 50%;
+                        margin-left: 40px;
+                    }
+    h1 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Verdana', sans-serif;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Verdana', sans-serif;
+    line-height: 1.5;
+} 
+p1 {
+    font-size: 15px;
+    font-family: 'Verdana', sans-serif;
+    line-height: 1.5;
+}
+}
