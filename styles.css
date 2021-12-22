@@ -131,7 +131,8 @@ h1{
 
 .box{
     background-image: linear-gradient(#e6fffa 80%, #b3ffec);
-    padding:4vw;   
+    padding:4vw; 
+    overflow:hidden;
 }
 
 .icons {
@@ -166,6 +167,7 @@ h1{
 .benefits{
     background-image: linear-gradient(#b3ffec 80%, #ccffe6);
     padding:0vw 5vw 0vw 10vw;
+    overflow:hidden;
 }
 
 /*
