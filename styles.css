@@ -100,16 +100,6 @@ h1{
   padding:4.5vw 8vw 4.5vw 7.5vw;
 }
 
-/*
-video {
-    width: 100%;
-    height: auto;
-    padding-bottom:3vw;
-    padding-left: 10vw;
-    padding-right: 10vw;
-}
-*/
-
 
 .carousel{
     width:250px;
@@ -141,7 +131,7 @@ video {
 
 .box{
     background-image: linear-gradient(#e6fffa 80%, #b3ffec);
-    padding:4vw;
+    padding:4vw;   
 }
 
 .icons {
@@ -178,9 +168,16 @@ video {
     padding:0vw 5vw 0vw 10vw;
 }
 
+/*
 .innerpoints{
     margin-left: 4vw;
 }
+*/
+
+.innerpoints{
+    overflow:hidden;
+}
+
 
 .check{
     float:left;
