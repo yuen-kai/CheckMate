@@ -1,3 +1,5 @@
+
+
 body{
     line-height: 2;
 }
@@ -30,10 +32,13 @@ h1{
     color: #000066;
 }
 
+
 .appstorebuttons {
     float: left;
     width: 300px;
     margin-top: 5vw;
+    
+    
 }
 
 .appstorebuttons2 {
@@ -54,8 +59,11 @@ h1{
     }
 
 .phone{
-    width:500px;
+    width:250px;
     float:right;
+    margin-right: 10vw;
+    margin-left:10vw;
+    
 }
 
 .innerphone{
@@ -64,7 +72,7 @@ h1{
 }
 
 
-@media (max-width: 950px) {
+@media (max-width: 850px) {
      .phone{ float: none; }
 }
 
@@ -170,11 +178,6 @@ h1{
     overflow:hidden;
 }
 
-/*
-.innerpoints{
-    margin-left: 4vw;
-}
-*/
 
 .innerpoints{
     overflow:hidden;
@@ -220,7 +223,6 @@ footer{
 }
 
 .scrollFade--animate {
-/*  transition: opacity 10s ease-in-out;*/
     transition: opacity 10s ease-out;
     transition: opacity 1s ease-in;
 }
