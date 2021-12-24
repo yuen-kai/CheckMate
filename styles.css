@@ -24,6 +24,7 @@ img.a{
 .top{
     background-image: linear-gradient(#80bfff 20%, #ccddff);
     padding:1vw;
+    overflow:hidden;
 }
 
 h1{
@@ -48,7 +49,7 @@ h1{
 .ad{
     width: 80%;
     margin-top:3vw;     
-    margin-left: 5vw;
+    margin-left: 6vw;
 }
 
 .row:after {
