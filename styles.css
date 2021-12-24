@@ -1,5 +1,4 @@
 
-
 body{
     line-height: 2;
 }
@@ -23,8 +22,8 @@ img.a{
 
 .top{
     background-image: linear-gradient(#80bfff 20%, #ccddff);
-    padding:1vw;
-    overflow:hidden;
+    padding:1vw; 
+    overflow: hidden;
 }
 
 h1{
@@ -35,59 +34,69 @@ h1{
 
 .appstorebuttons {
     float: left;
-    width: 300px;
-    margin-top: 5vw;
-    margin-left:2vw;
+    padding: 5vw 2vw 0vw 2vw ;
+}
+
+.appstore{
+    width:100%;
+    height: auto;
 }
 
 .appstorebuttons2 {
     float:left;
-    width: 300px;
     margin-top: 5vw;
+    padding: 2vw;
+
 }
 
 .ad{
     width: 80%;
     margin-top:3vw;     
-    margin-left: 6vw;
+    margin-left: 8vw;
 }
 
 .row:after {
-      content: "";
+       content: "";
       display: table;
       clear: both;
     }
 
 .area{
     float:right;
+    display: flex;
+    justify-content: center;
     margin-right:8vw;
     margin-left:10vw;
     margin-top: -1vw;
+
 }
 
-.phone{
-    width:250px;
-}
 
 
 .innerphone{
     width:100%;
     height:auto;
-}
-
+ }
 
 @media (max-width: 850px) {
    .area { float: none; }
+
 }
+
      
-
-
+ 
 .about{
     background-image: linear-gradient(#ccddff 80%, #99bbff);
     text-align: center;
     padding: 4vw 10vw 5vw 10vw;
     font-size: larger;
 }
+
+@media (max-width: 850px) {
+   .about { text-align:justify;
+    }
+}
+
 
 .bgvideo{
     background-image: linear-gradient(#99bbff 80%, #e6fffa);
@@ -121,7 +130,7 @@ h1{
     margin-right:5vw;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 850px) {
    .carousel { float: none; }
 }
 
@@ -172,14 +181,14 @@ h1{
 }
 
 .features{
-    margin-left:6vw;
+    margin-left:2vw;
     text-align: justify;
  }
 
 
 .benefits{
     background-image: linear-gradient(#b3ffec 80%, #ccffe6);
-    padding:0vw 5vw 0vw 10vw;
+    padding:0vw 5vw 0vw 6vw;
     overflow:hidden;
 }
 
@@ -199,7 +208,7 @@ h1{
 
 footer{
     background-color:  #ccffe6 ;
-    padding: 1vw 5vw 5vw 5vw;
+    padding: 1vw 5vw 5vw 8vw;
 }
 
 .contact{
@@ -233,4 +242,5 @@ footer{
 }
 
 .js .accordion:nth-child(n+1) { display: none }
+
 
