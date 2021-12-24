@@ -48,7 +48,7 @@ h1{
 .ad{
     width: 80%;
     margin-top:3vw;     
-    margin-left: 8vw;
+    margin-left: 6vw;
 }
 
 .row:after {
@@ -60,7 +60,7 @@ h1{
 .area{
     float:right;
     margin-right:8vw;
-    margin-left:6vw;
+    margin-left:10vw;
     margin-top: -1vw;
 }
 
