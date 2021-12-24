@@ -24,7 +24,6 @@ img.a{
 .top{
     background-image: linear-gradient(#80bfff 20%, #ccddff);
     padding:1vw;
-    overflow: hidden;
 }
 
 h1{
@@ -37,8 +36,7 @@ h1{
     float: left;
     width: 300px;
     margin-top: 5vw;
-    
-    
+    margin-left:2vw;
 }
 
 .appstorebuttons2 {
@@ -48,8 +46,9 @@ h1{
 }
 
 .ad{
- margin-top:3vw;     
- margin-left: 10vw;
+    width: 80%;
+    margin-top:3vw;     
+    margin-left: 8vw;
 }
 
 .row:after {
@@ -58,13 +57,17 @@ h1{
       clear: both;
     }
 
+.area{
+    float:right;
+    margin-right:8vw;
+    margin-left:6vw;
+    margin-top: -1vw;
+}
+
 .phone{
     width:250px;
-    float:right;
-    margin-right: 10vw;
-    margin-left:10vw;
-    
 }
+
 
 .innerphone{
     width:100%;
@@ -73,8 +76,9 @@ h1{
 
 
 @media (max-width: 850px) {
-     .phone{ float: none; }
+   .area { float: none; }
 }
+     
 
 
 .about{
