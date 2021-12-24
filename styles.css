@@ -93,7 +93,7 @@ h1{
 }
 
 @media (max-width: 850px) {
-   .about { text-align:justify;
+   .about { text-align:left;
     }
 }
 
@@ -181,8 +181,7 @@ h1{
 }
 
 .features{
-    margin-left: 1vw;
-    text-align: justify;
+    margin-left:1vw; 
  }
 
 
@@ -195,8 +194,8 @@ h1{
 
 .innerpoints{
     overflow:hidden;
-    text-align:justify;
-}
+    margin-left:4vw;
+ }
 
 
 .check{
@@ -243,5 +242,7 @@ footer{
 }
 
 .js .accordion:nth-child(n+1) { display: none }
+
+
 
 
