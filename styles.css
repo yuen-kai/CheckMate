@@ -181,7 +181,7 @@ h1{
 }
 
 .features{
-    margin-left:2vw;
+    margin-left: 1vw;
     text-align: justify;
  }
 
@@ -195,6 +195,7 @@ h1{
 
 .innerpoints{
     overflow:hidden;
+    text-align:justify;
 }
 
 
