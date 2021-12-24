@@ -122,6 +122,11 @@ h1{
   padding:4.5vw 8vw 4.5vw 7.5vw;
 }
 
+.slide-center{
+    display: flex;
+    justify-content: center;
+}
+
 
 .carousel{
     width:250px;
