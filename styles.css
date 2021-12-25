@@ -26,9 +26,15 @@ img.a{
     overflow: hidden;
 }
 
-h1{
-    font-weight:bold;
-    color: #000066;
+p{
+    font-size: 350%;
+ }
+
+
+ @media screen and (max-width: 850px) {
+{
+    font-size: 250%;
+}
 }
 
 
