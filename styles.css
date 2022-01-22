@@ -190,7 +190,7 @@ img.a{
     float:right;
 }
 
-@media (min-width: 1399px) {
+@media (min-width: 1359px) {
     .text{float:none;}
 }
 
