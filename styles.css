@@ -153,12 +153,12 @@ img.a{
     overflow:hidden;
 }
 
-@media (max-width: 1199px) {
-    .text{font-size:150%;}
+@media (max-width: 999px) {
+    .text{font-size:120%;}
 }
 
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
     .text{font-size:150%;}
 }
 
