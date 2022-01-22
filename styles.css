@@ -190,6 +190,10 @@ img.a{
     float:right;
 }
 
+@media (max-width: 1399px) {
+    .text{float:none;}
+}
+
 .features{
     margin-left:1vw; 
  }
