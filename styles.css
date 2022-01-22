@@ -92,7 +92,6 @@ img.a{
     }
 }
 
-
 .bgvideo{
     background-image: linear-gradient(#99bbff 80%, #e6fffa);
     padding-bottom:2vw; 
@@ -154,11 +153,13 @@ img.a{
 }
 
 @media (max-width: 1299px) {
+    .about{font-size:110%;}
     .text{font-size:120%;}
 }
 
 
 @media (min-width: 1300px) {
+    .about{font-size:150%}
     .text{font-size:150%;}
 }
 
