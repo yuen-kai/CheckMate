@@ -155,12 +155,14 @@ img.a{
 @media (max-width: 1299px) {
     .intro{font-size:110%;}
     .text{font-size:120%;}
+    .innerpoints{font-size:120%;}
 }
 
 
 @media (min-width: 1300px) {
     .intro{font-size:150%}
     .text{font-size:150%;}
+    .innerpoints{font-size:150%;}
 }
 
 
