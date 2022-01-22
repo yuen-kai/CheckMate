@@ -26,6 +26,7 @@ img.a{
     overflow: hidden;
 }
 
+
 .appstorebuttons {
     float: left;
     padding: 5vw 2vw 0vw 2vw ;
@@ -116,7 +117,6 @@ img.a{
   padding:4.5vw 8vw 4.5vw 7.5vw;
 }
 
-
 .carousel{
     width:250px;
     margin-left:8vw;
@@ -126,7 +126,8 @@ img.a{
 
 @media (max-width: 850px) {
    .carousel { float: none; }
-   .slide-center{display: flex; justify-content: center;}    
+   .slide-center{display: flex; justify-content: center;}
+    
 }
 
 /* Make the image fully responsive */
@@ -152,6 +153,16 @@ img.a{
     overflow:hidden;
 }
 
+@media (max-width: 1499px) {
+    .text{font-size:120%;}
+}
+
+
+@media (min-width: 1500px) {
+    .text{font-size:150%;}
+}
+
+
 .icons {
     float:left;
     padding: 5px 10px;
@@ -173,6 +184,7 @@ img.a{
 
 .text{
     margin-left:2vw;
+    float:right;
 }
 
 .features{
@@ -189,13 +201,12 @@ img.a{
 
 .innerpoints{
     overflow:hidden;
-    margin-left:4vw;
  }
 
 
 .check{
     float:left;
-    margin-right: 2vw;   
+    margin-right: 2vw;
 }
 
 .side{
@@ -238,8 +249,4 @@ footer{
 }
 
 .js .accordion:nth-child(n+1) { display: none }
-
-
-
-
 
