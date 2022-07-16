@@ -4,7 +4,7 @@ body{
 }
 
 .bar{
-    background-color: #80bfff;
+    background-color: #6a99e6;
     padding:0.1px;
 }
 
@@ -21,7 +21,7 @@ img.a{
 }
 
 .top{
-    background-image: linear-gradient(#80bfff 20%, #ccddff);
+    background-image: linear-gradient(#6a99e6 20%, #ccddff);
     padding:1vw; 
     overflow: hidden;
 }
@@ -93,8 +93,11 @@ img.a{
 }
 
 .bgvideo{
-    background-image: linear-gradient(#99bbff 80%, #e6fffa);
-    padding-bottom:2vw; 
+    background-image: linear-gradient(#99bbff 10%, #ccddff);
+/*    padding-bottom:2vw; */
+    text-align: left;
+    padding: 4vw 10vw 5vw 10vw;
+    font-size: larger;
 }
 
 .container2 {
@@ -147,14 +150,14 @@ img.a{
 }
 
 .box{
-    background-image: linear-gradient(#e6fffa 80%, #b3ffec);
+    background-image: linear-gradient(#ccddff 80%, #99bbff);
     padding:4vw; 
     overflow:hidden;
 }
 
 @media (max-width: 1299px) {
-    .intro{font-size:110%;}
-    .text{font-size:120%;}
+    .intro{font-size:100%;}
+    .text{font-size:110%;}
     .innerpoints{font-size:120%;}
 }
 
@@ -170,7 +173,7 @@ img.a{
     float:left;
     padding: 5px 10px;
     outline: none;
-    background-image: linear-gradient(#4dffdb, #ccfff5);
+    background-image: linear-gradient(#4da6ff,  #b3d9ff);
     height:50px;
     width:50px
     border: 1px solid #4CAF50;
@@ -190,12 +193,13 @@ img.a{
 }
 
 .features{
+    background-image: linear-gradient(#ccddff 80%, #99bbff)
     margin-left:1vw; 
  }
 
 
 .benefits{
-    background-image: linear-gradient(#b3ffec 80%, #ccffe6);
+    background-image: linear-gradient(#ccddff 80%, #99bbff)
     padding:0vw 5vw 0vw 6vw;
     overflow:hidden;
 }
@@ -216,11 +220,12 @@ img.a{
 }
 
 footer{
-    background-color:  #ccffe6 ;
+    background-color:  #99bbff ;
     padding: 1vw 5vw 5vw 8vw;
 }
 
 .contact{
+    background-color: '#ccffe6';
     text-align: center;
 }
 
