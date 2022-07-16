@@ -87,18 +87,21 @@ img.a{
     font-size: larger;
 }
 
-@media (max-width: 850px) {
-   .about { text-align:left;
-    }
-}
 
 .bgvideo{
     background-image: linear-gradient(#99bbff 10%, #ccddff);
 /*    padding-bottom:2vw; */
-    text-align: left;
+    text-align: center;
     padding: 4vw 10vw 5vw 10vw;
     font-size: larger;
 }
+
+@media (max-width: 850px) {
+   .about { text-align: left;
+    }
+    .bgvideo{text-align: left;}
+}
+
 
 .container2 {
   position: relative;
